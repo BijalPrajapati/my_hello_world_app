@@ -9,7 +9,12 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <h1>Welcome to my application</h1>
     <App />
+    <br />
+    <br />
+    <a href="/login">Login</a>
+    <a href="/register">Register</a>
   </React.StrictMode>
 );
 
